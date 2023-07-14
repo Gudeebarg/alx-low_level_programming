@@ -2,8 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Test whether a random number is either positive, negative or zero */
-int main(void
+/**
+ * main - Test whether a random number is either positive, negative or zero
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
 int n;
 
