@@ -4,9 +4,20 @@
  *main - Prints the alphabet.
  *
  *Return: Always 0 (Success)
- */    
+ */
 int main(void)
 {
-	char alp[52]=
-		"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	char alpha1, alpha2;
 
+	for (alpha1 = 'a'; alpha1 <= 'z'; alpha1++)
+	{
+		putchar (alpha1);
+	}
+
+	for (alpha2 = 'A'; alpha2 <= 'Z'; alpha2++)
+	{
+		putchar (alpha2);
+	}
+	putchar('\n');
+	return (0);
+}
