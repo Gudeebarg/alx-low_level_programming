@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - Receives no argument
+ *main - Receives no argument
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n, ld;
