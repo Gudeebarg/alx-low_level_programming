@@ -14,7 +14,6 @@ int main(void)
 	{
 		putchar('0' + i);
 		/*if it is not the last number, add , and a space */
-	}
 		if (i < 9)
 		{
 			putchar(',');
@@ -22,4 +21,5 @@ int main(void)
 		}
 		putchar('\n');
 		return (0);
+	}
 }
