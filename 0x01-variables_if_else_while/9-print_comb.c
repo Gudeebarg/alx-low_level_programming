@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - Receives no argument
+ *main - receives no argument
  *
  *Return: Always 0 (success)
  */
@@ -14,6 +14,8 @@ int main(void)
 	{
 		putchar('0' + i);
 		/*if it is not the last number, add , and a space */
+	}
+
 		if (i < 9)
 		{
 			putchar(',');
