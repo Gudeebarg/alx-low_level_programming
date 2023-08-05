@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isupper(int c)
+int _abs(int n)
 {
-	if (c >= 'A' && c <= 'Z');
+	return abs(n);
 }

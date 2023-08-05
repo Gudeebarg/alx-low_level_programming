@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isupper(int c)
+char *_strchr(char *s, char c)
 {
-	if (c >= 'A' && c <= 'Z');
+	return strchr(s, c);
 }

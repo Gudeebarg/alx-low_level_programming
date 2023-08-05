@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isupper(int c)
+void _puts(char *s)
 {
-	if (c >= 'A' && c <= 'Z');
+	puts(s);
 }

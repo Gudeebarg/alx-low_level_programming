@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
-int _isupper(int c)
+int _atoi(char *s)
 {
-	if (c >= 'A' && c <= 'Z');
+	return atoi(s);
 }

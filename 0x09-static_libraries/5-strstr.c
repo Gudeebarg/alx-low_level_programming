@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isupper(int c)
+char *_strstr(char *haystack, char *needle)
 {
-	if (c >= 'A' && c <= 'Z');
+	return strstr(haystack, needle);
 }
